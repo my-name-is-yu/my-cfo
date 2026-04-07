@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student AI CFO</title>
+    <link rel="stylesheet" href="/styles.css" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  </head>
+  <body>
+    <main class="page">
+      <section class="hero">
+        <p class="eyebrow">OpenClaw Hackathon Demo</p>
+        <h1>学生向けパーソナルAI CFO</h1>
+        <p class="lede">一人暮らしの大学生向けに、家計把握、クレカ比較、旅行判断をまとめて支援するデモです。</p>
+      </section>
+
+      <section class="panel controls">
+        <button data-prompt="自分の状況教えて">自分の状況教えて</button>
+        <button data-prompt="クレカ作りたい">クレカ作りたい</button>
+        <button data-prompt="9月にバンクーバー旅行行ける？">9月にバンクーバー旅行行ける？</button>
+        <input id="freePrompt" type="text" placeholder="例: クレカ作りたい" />
+        <button id="sendPrompt">送信</button>
+      </section>
+
+      <section class="grid">
+        <article class="panel">
+          <h2>Assistant</h2>
+          <p id="message">ボタンを押すと、デモプロフィールに基づいた CFO の回答を表示します。</p>
+          <div id="integrationBadges" class="badges"></div>
+          <div id="metricGrid" class="metric-grid"></div>
+          <section id="profileSummary" class="profile-summary"></section>
+          <ul id="highlights" class="highlights"></ul>
+          <div id="cards" class="cards"></div>
+          <div id="comparisonTable"></div>
+          <div id="alternatives" class="alternatives"></div>
+        </article>
+
+        <article class="panel">
+          <h2>Visualization</h2>
+          <canvas id="chart"></canvas>
+          <section class="table-block">
+            <h3>TiDB 月次収支テーブル</h3>
+            <div id="cashflowTable"></div>
+          </section>
+          <section class="table-block">
+            <h3>構造化保存済みデータ</h3>
+            <div id="storedData"></div>
+          </section>
+        </article>
+      </section>
+    </main>
+    <script src="/app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,13 @@
+{
+  "Vancouver-2026-09": {
+    "destinationCity": "バンクーバー",
+    "departureCity": "東京",
+    "travelMonth": "2026-09",
+    "flightCostYen": 140000,
+    "hotelCostYen": 60000,
+    "localCostYen": 35000,
+    "totalEstimatedCostYen": 235000,
+    "sourceSite": "demo-cache",
+    "sourceUrl": "https://www.skyscanner.jp/"
+  }
+}

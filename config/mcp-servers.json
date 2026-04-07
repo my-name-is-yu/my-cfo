@@ -1,0 +1,28 @@
+{
+  "servers": [
+    {
+      "name": "mem9-memory",
+      "description": "Long-term memory lookup and writeback",
+      "endpoint": "${MEM9_PROJECT_ID}",
+      "tools": ["memory.search", "memory.insert", "memory.upsert"]
+    },
+    {
+      "name": "brightdata-web",
+      "description": "Web scraping and extraction through Bright Data",
+      "endpoint": "${BRIGHTDATA_MCP_URL}",
+      "tools": ["web.fetch", "web.extract", "web.screenshot"]
+    },
+    {
+      "name": "tidb-data",
+      "description": "TiDB SQL access for cashflow and caches",
+      "endpoint": "mysql://${TIDB_USER}:${TIDB_PASSWORD}@${TIDB_HOST}:${TIDB_PORT}/${TIDB_DATABASE}",
+      "tools": ["sql.query", "sql.execute", "vector.search"]
+    },
+    {
+      "name": "chart-renderer",
+      "description": "Frontend chart payload adapter",
+      "endpoint": "internal://chart-renderer",
+      "tools": ["chart.pie", "chart.bar", "chart.line"]
+    }
+  ]
+}

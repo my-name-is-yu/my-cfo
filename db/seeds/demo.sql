@@ -1,0 +1,55 @@
+INSERT INTO user_profiles (
+  user_id,
+  display_name,
+  age,
+  occupation,
+  university_year,
+  city,
+  nearest_station,
+  monthly_income_total,
+  monthly_income_part_time,
+  monthly_income_allowance,
+  monthly_rent,
+  current_savings,
+  has_credit_card,
+  study_abroad_plan,
+  spending_traits,
+  subscriptions
+) VALUES (
+  'demo-user-001',
+  '都内在住の大学2年生',
+  20,
+  'student',
+  2,
+  '東京',
+  '下北沢',
+  120000,
+  80000,
+  40000,
+  65000,
+  300000,
+  FALSE,
+  '来年春に短期留学予定',
+  JSON_ARRAY('コンビニ利用が多い', '駅近での小額出費が積み上がりやすい', '節約しすぎる提案は好まない'),
+  JSON_ARRAY('Netflix 1490', 'Spotify 980')
+);
+
+INSERT INTO monthly_cashflows (
+  user_id,
+  target_month,
+  income_total,
+  rent,
+  food,
+  convenience_store,
+  transport,
+  utilities,
+  phone,
+  entertainment,
+  subscriptions_total,
+  misc,
+  savings_delta,
+  note
+) VALUES
+('demo-user-001', '2026-04-01', 120000, 65000, 18000, 12000, 6000, 7000, 4000, 8000, 2470, 9000, -11470, '現状維持だと毎月少しずつ赤字'),
+('demo-user-001', '2026-05-01', 120000, 65000, 17500, 11500, 6000, 7000, 4000, 7500, 2470, 8500, -9470, 'コンビニ節約の改善ケース'),
+('demo-user-001', '2026-06-01', 120000, 65000, 18000, 10000, 6000, 7000, 4000, 7000, 2470, 8500, -7970, '節約努力後の想定');

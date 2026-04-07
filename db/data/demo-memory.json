@@ -1,0 +1,49 @@
+{
+  "userId": "demo-user-001",
+  "profile": {
+    "displayName": "都内在住の大学2年生",
+    "age": 20,
+    "occupation": "student",
+    "universityYear": 2,
+    "city": "東京",
+    "nearestStation": "下北沢",
+    "livingStyle": "一人暮らし",
+    "studyAbroadPlan": "来年春に短期留学予定",
+    "hasCreditCard": false
+  },
+  "income": {
+    "monthlyTotal": 120000,
+    "partTime": 80000,
+    "allowance": 40000,
+    "currentSavings": 300000
+  },
+  "expenses": {
+    "rent": 65000,
+    "food": 18000,
+    "convenienceStore": 12000,
+    "transport": 6000,
+    "utilities": 7000,
+    "phone": 4000,
+    "entertainment": 8000,
+    "subscriptionsTotal": 2470,
+    "misc": 9000
+  },
+  "subscriptions": [
+    { "name": "Netflix", "price": 1490 },
+    { "name": "Spotify", "price": 980 }
+  ],
+  "traits": [
+    "コンビニ利用が多い",
+    "節約しすぎて生活の満足度を落とす提案は好まない",
+    "学生向け割引やキャンペーンに関心が高い",
+    "留学予定があるため、海外利用や為替コストに関係する提案は優先度が高い"
+  ],
+  "memories": [
+    "私は東京で一人暮らしをしている20歳の大学2年生。最寄り駅は下北沢。",
+    "月収は12万円で、内訳はバイト8万円と仕送り4万円。",
+    "家賃は6.5万円で、現在の貯金は30万円ある。",
+    "コンビニ利用が多く、Netflix 1490円とSpotify 980円を契約している。",
+    "来年春に短期留学の予定があるので、海外で使いやすい金融サービスに関心がある。",
+    "まだクレジットカードは持っていない。"
+  ]
+}

@@ -1,0 +1,47 @@
+[
+  {
+    "targetMonth": "2026-04",
+    "incomeTotal": 120000,
+    "rent": 65000,
+    "food": 18000,
+    "convenienceStore": 12000,
+    "transport": 6000,
+    "utilities": 7000,
+    "phone": 4000,
+    "entertainment": 8000,
+    "subscriptionsTotal": 2470,
+    "misc": 9000,
+    "savingsDelta": -11470,
+    "note": "現状維持だと毎月少しずつ赤字"
+  },
+  {
+    "targetMonth": "2026-05",
+    "incomeTotal": 120000,
+    "rent": 65000,
+    "food": 17500,
+    "convenienceStore": 11500,
+    "transport": 6000,
+    "utilities": 7000,
+    "phone": 4000,
+    "entertainment": 7500,
+    "subscriptionsTotal": 2470,
+    "misc": 8500,
+    "savingsDelta": -9470,
+    "note": "コンビニ節約の改善ケース"
+  },
+  {
+    "targetMonth": "2026-06",
+    "incomeTotal": 120000,
+    "rent": 65000,
+    "food": 18000,
+    "convenienceStore": 10000,
+    "transport": 6000,
+    "utilities": 7000,
+    "phone": 4000,
+    "entertainment": 7000,
+    "subscriptionsTotal": 2470,
+    "misc": 8500,
+    "savingsDelta": -7970,
+    "note": "節約努力後の想定"
+  }
+]

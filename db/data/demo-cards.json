@@ -1,0 +1,41 @@
+[
+  {
+    "cardName": "JCBカードW",
+    "issuerName": "JCB",
+    "annualFeeYen": 0,
+    "pointRewardRate": 1.0,
+    "studentBenefits": "39歳以下申し込み可。ポイント還元が高め。",
+    "overseasFeeNote": "海外利用しやすいが、利用地域によって加盟店差あり。",
+    "campaignTitle": "新規入会キャンペーン",
+    "campaignValue": "最大ポイント還元",
+    "campaignExpiry": "2026-09-30",
+    "sourceSite": "demo-cache",
+    "sourceUrl": "https://www.jcb.co.jp/ordercard/kojin_card/os/"
+  },
+  {
+    "cardName": "エポスカード",
+    "issuerName": "丸井",
+    "annualFeeYen": 0,
+    "pointRewardRate": 0.5,
+    "studentBenefits": "年会費無料。海外旅行サポートの文脈で説明しやすい。",
+    "overseasFeeNote": "海外旅行向け案内が分かりやすい。",
+    "campaignTitle": "新規入会特典",
+    "campaignValue": "入会ポイント付与",
+    "campaignExpiry": "2026-09-30",
+    "sourceSite": "demo-cache",
+    "sourceUrl": "https://www.eposcard.co.jp/"
+  },
+  {
+    "cardName": "楽天カード",
+    "issuerName": "楽天カード",
+    "annualFeeYen": 0,
+    "pointRewardRate": 1.0,
+    "studentBenefits": "年会費無料。日常決済で使いやすい。",
+    "overseasFeeNote": "海外事務手数料は確認前提。",
+    "campaignTitle": "入会&利用キャンペーン",
+    "campaignValue": "ポイント進呈",
+    "campaignExpiry": "2026-09-30",
+    "sourceSite": "demo-cache",
+    "sourceUrl": "https://www.rakuten-card.co.jp/"
+  }
+]
